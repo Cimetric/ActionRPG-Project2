@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640b52b005f736744b3aabdfb8f24abb, type: 3}
+  m_Name: Armor
+  m_EditorClassIdentifier: 
+  ItemName: Armor of Incalculable Time To Figure This Out
+  ItemSprite: {fileID: 21300000, guid: c0030501ca7ae3e45a68a137b06dac36, type: 3}
+  Description: Adds 4 points to defense and a 15 percent boost to physical damage
+    and a 15 %debuff to Electric damage
+  WorldObjectPrefab: {fileID: 0}
+  Slot: 1
+  MinimumStrength: 0
+  MinimumAgility: 0
+  MinimumDefense: 0
+  EquippedEffects:
+  - {fileID: 1288155400231051429}
+--- !u!114 &1288155400231051429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674612dbe4e22e441942361b0bdb7803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  Modifier:
+    ModifierMode: 1
+    Stats:
+      health: 0
+      strength: 0
+      defense: 4
+      agility: 0
+      elementalProtection: 0f000000000000000000000000000000
+      elementalBoosts: 0000000000000000000000000f000000
